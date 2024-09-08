@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+}
+
+
+/* ######### NAVBAR ######## */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transn {
+    width: auto;
+    height: 50px;
+}
+
+.contactnavinfo {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.boxesnav {
+    align-items: center;
+}
+
+.contactnavinfo {
+    font-weight:500;
+}
+
+.contactnavinfo:hover {
+    text-decoration: underline;
+    color: #0359b4;
+}
+
+.navoption{
+    text-decoration: none;
+    color: #00000080;
+    align-items: center;
+}
+
+.navoption:hover{
+    color: #0359b4;
+}
+
+.btnsign {
+    background-color: #0359b4;
+    color: white;
+    padding: 3px 15px 3px 15px;
+    border-radius: 5px ;
+    border:1px #007BFF solid;
+}
+
+.btnsign:hover {
+    background-color: #0464cb;
+}
+
+.btn:hover {
+    color: #0359b4;
+}
+
+/* Home Page */
+
+
+.firstsec {
+    height: 700px;
+}
+.honehp{
+    width: auto;
+    font-size:3rem;
+    color: #000000;
+    margin-top: 25vh;
+    font-weight: 650;
+}
+
+.spanhp {
+    color: #1565C0;
+}
+
+.parahp {
+    color: #808FA3;
+    margin: 16px 0;
+}
+
+.quotebtn {
+    color: white;
+    padding: 10px 20px;
+    background-color: #1565C0;
+}
+
+.quotebtn:hover {
+    color: white;
+    background-color: #007bff;
+}
+
+.imgright{
+    position: relative;
+    right: 20px;
+    padding-top: 50px;
+    scale: 1.05;
+    overflow: hidden;
+}
+
+/* Section 2 */
+
+#topdivsec2 {
+    padding-top: 80px;
+}
+
+.fw-700 {
+    font-weight: 650;
+}
+
+.circle {
+    color: white;
+    padding-top: 12px;
+    padding-right: 2px;
+    width: 50px;
+    height: 50px;
+    background-color: #064c97;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* third section */
+
+.thirdsec {
+    background-image:url(https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-light-blue-backgrounds.jpg);
+    height: 650px;
+}
+
+.orderbtn{
+    background-color: #024994;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px ;
+    border:1px #007BFF solid;
+}
+
+/* Fourth section  */
+
+
+.fourthsec{
+    height: 1000px;
+}
+
+.dashboradimg{
+    width: 70%;
+}
+
+/* fifth section */
+
+.fifthsec {
+    padding-bottom: 150px;
+}
+
+
+/* form section */
+
+
+.formsection{
+    padding-bottom: 30px;
+}
+
+.formelement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field{
+    margin: 10px 0;
+    width: 40%;
+    background-color: #d3dfe26e;
+    resize: none;
+}
+
+.btnsub{
+    background-color: #024994;
+    color: white;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px 0 50px;
+}
+
+
+
+/* ------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ */
+
+@media (min-width: 300px) and (max-width: 570px) {
+    .transn {
+        width: auto;
+        height: 30px;
+        justify-content: center;
+    }
+
+    .lefthand{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .boxesnav {
+        display: none;
+    }
+    .rightnav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navoption{
+        font-size: small;
+        padding: 20px 5px 0 5px;
+    }
+
+    .imgright{
+        display: none;
+    }
+    
+    .fristpagecontainer {
+        margin-top: 20px;
+    }
+    .honehp{
+        margin-top: 10px;
+    }
+
+    .dashboradimg{
+        width: 70%;
+    }
+
+    .field{
+        width: 75%;
+    }
+
+    .thirdsec{
+        padding-top: 70px;
+    }
+
+    .imgright2{
+        width: 75%;
+    }
+
+
+}
+
+@media (min-width:570px) and (max-width:1300px) {
+    .boxesnav {
+        display: none;
+    }
+    .imgright{
+        display: none;
+    }
+    .fristpagecontainer {
+        margin-top: 5px;
+    }
+    .honehp{
+        margin-top: 10px;
+    }
+    .firstsec {
+        height: 500px;
+    }
+
+    .field{
+        width: 75%;
+    }
+
+    .thirdsec{
+        padding-top: 150px;
+    }
+    .imgright2{
+        width: 75%;
+    }
+}
